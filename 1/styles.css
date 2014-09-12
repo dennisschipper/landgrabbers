@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory - all.scss
+
+Backtrace:
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/plugin.rb:108:in `method_missing'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/exec/sass_scss.rb:349:in `watch_or_update'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/exec/base.rb:40:in `parse'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/lib/sass/exec/base.rb:19:in `parse!'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/gems/sass-3.4.3/bin/sass:13:in `<top (required)>'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/bin/sass:23:in `load'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/bin/sass:23:in `<main>'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/bin/ruby_executable_hooks:15:in `eval'
+/Users/dennis/.rvm/gems/ruby-2.0.0-p481@rails4/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - all.scss"; }
